@@ -1,5 +1,5 @@
-//* 
- /* Copyright 2019 Adrian Bueno Olmedo <adrian.bueno.alum@iescamp.es>.
+/* 
+ * Copyright 2019 Mario Merlos Abella <mario.merlos.alum@iescamp.es>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,18 +29,18 @@ public class Main {
                     .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
 
     public static void main(String[] args) {
-        double BTri, HTri, ATri;
+        double bTri, hTri, aTri;
 
         try {
             // Leer datos   
             System.out.printf("Base triángulo ....: ");
-            BTri = SCN.nextInt();
+            bTri = SCN.nextInt();
             System.out.printf("Altura triángulo ..:  ");
-            HTri = SCN.nextInt();
-            ATri = BTri*HTri/2;
-            System.out.printf("Altura triángulo ..:  ");
+            hTri = SCN.nextInt();
+            aTri = bTri*hTri/2;
+            
             //Mensaje
-            System.out.printf("Área triángulo ....: %.2f cm%n", ATri);
+            System.out.printf("Área triángulo ....: %.2f cm%n", aTri);
         } catch (Exception e) {
            
             //Mensaje
