@@ -37,12 +37,12 @@ public class Main {
             bTri = SCN.nextInt();
             System.out.printf("Altura triángulo ..:  ");
             hTri = SCN.nextInt();
-            aTri = bTri*hTri/2;
-            
+            aTri = bTri * hTri / 2;
+
             //Mensaje
             System.out.printf("Área triángulo ....: %.2f cm%n", aTri);
         } catch (Exception e) {
-           
+
             //Mensaje
             System.out.printf("ERROR: Entrada incorrecta");
 
